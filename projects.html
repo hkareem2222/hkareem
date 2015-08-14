@@ -49,12 +49,12 @@
         <div class="container">
             <div class="text-center">
                 <div class="btn-group hidden-xs">
-                    <button type="button" data-filter=".web" class="btn btn-default active">Web</button>
-                    <button type="button" data-filter=".mobile" class="btn btn-default">Mobile</button>
+                    <button type="button" data-filter=".mobile" class="btn btn-default active">Mobile</button>
+                    <button type="button" data-filter=".web" class="btn btn-default">Web</button>
                 </div>
                 <div class="buttons visible-xs">
-                    <button type="button" data-filter=".web" class="btn btn-default active">Web</button>
-                    <button type="button" data-filter=".mobile" class="btn btn-default">Mobile</button>
+                    <button type="button" data-filter=".mobile" class="btn btn-default active">Mobile</button>
+                    <button type="button" data-filter=".web" class="btn btn-default">Web</button>
                 </div>
             </div>
             
@@ -144,7 +144,7 @@
                         columnWidth: '.grid-sizer',
                         gutter: '.gutter-sizer'
                     },
-                    filter: '.web'
+                    filter: '.mobile'
                 });
                 $('.btn-group, .buttons').on( 'click', 'button', function() {
                     var filterValue = $( this ).attr('data-filter');

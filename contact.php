@@ -1,6 +1,6 @@
 <?php
 $subject = stripslashes(trim($_POST['subject']));
-$emailTo = 'hkareem2222@gmail.com';
+$emailTo = 'husein@hkareem.com';
 $emailSent = false;
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email    = stripslashes(trim($_POST['email']));
