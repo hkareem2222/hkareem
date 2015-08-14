@@ -1,0 +1,123 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #777;
+    background-color: #fff;
+}
+a,
+a:active {
+    color: #3498db;
+}
+hr {
+    border-color: #777;
+}
+/*---------------------------
+| NAVBAR
+---------------------------*/
+.navbar {
+    min-height: 110px;
+}
+.navbar-brand {
+    padding: 5px 15px;
+}
+.navbar-brand > img {
+    width: 100px;
+    height: 100px;
+}
+.navbar-default {
+    border: none;
+    background: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3498db;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #3498db;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: #f1f1f1;
+}
+.navbar-default .navbar-nav,
+.navbar-default .navbar-toggle {
+    margin-top: 35px;
+}
+.navbar-collapse {
+    border: none;
+    box-shadow: none;
+}
+/*---------------------------
+| FORM
+---------------------------*/
+.form-control, .btn {
+    border-radius: 0;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+textarea {
+    resize: vertical;
+}
+.btn {
+    min-width: 200px;
+}
+/*---------------------------
+| PORTFOLIO
+---------------------------*/
+.grid {
+    width: 100%;
+    margin: 50px 0 auto;
+}
+.grid-sizer,
+.grid-item {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.gutter-sizer {
+    width: 0;
+}
+@media (min-width: 600px) {
+    .gutter-sizer { width: calc(10%/2); }
+    .grid-sizer,
+    .grid-item {
+        width: 45%;
+    }
+}
+@media (min-width: 992px) {
+    .gutter-sizer { width: calc(10%/3); }
+    .grid-sizer,
+    .grid-item {
+        width: 30%;
+    }
+}
+.grid-item {
+    float: left;
+    -webkit-box-shadow: 0 1px 0 2px #f1f1f1;
+    box-shadow: 0 1px 0 2px #f1f1f1;
+}
+.project-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.project-desc {
+    text-align: center;
+    padding: 10px;
+}
+/*---------------------------
+| FOOTER
+---------------------------*/
+.footer {
+    text-align: center;
+    margin-top: 100px;
+}
+@media screen and (min-width: 786px) {
+    .footer {
+        text-align: left;
+    }
+}
